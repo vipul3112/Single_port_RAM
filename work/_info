@@ -1,0 +1,165 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/fetools/work_area/frontend/Batch_11/vipulsharma/SV/mem_32_bit
+T_opt
+!s110 1783330589
+V[^B^idbDK8[ob0O0Q]]C>3
+Z1 04 2 4 work tb fast 0
+=1-6805caf5892e-6a4b771d-74300-370e9
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OE;O;10.6c;65
+R0
+T_opt1
+!s110 1783331532
+V[0RMP6=dJiC=fcSXo:aQS0
+R1
+=1-6805caf5892e-6a4b7acc-6d025-3e28
+o-quiet -auto_acc_if_foreign -work work +acc=npr
+R2
+n@_opt1
+R3
+Xdriver_sv_unit
+Z4 !s115 intf
+Z5 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1783314759
+!i10b 1
+!s100 k[00kZPz:CA61eID]>^_b2
+IQo?I@G=NYcXM0[dz0KIXh0
+VQo?I@G=NYcXM0[dz0KIXh0
+!i103 1
+S1
+R0
+w1783314339
+8driver.sv
+Z6 Fdriver.sv
+Z7 Ftransaction.sv
+L0 1
+Z8 OE;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1783314759.000000
+!s107 transaction.sv|driver.sv|
+!s90 driver.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Yintf
+R5
+!s110 1783331528
+!i10b 1
+!s100 QCCk32i2@T>M;Q[HZKdhm0
+IJAHZXHRJm9^jUzGALA1_F1
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 !s105 testbench_sv_unit
+S1
+R0
+w1783315775
+8interface.sv
+Z11 Finterface.sv
+L0 4
+R8
+r1
+!s85 0
+31
+Z12 !s108 1783331528.000000
+Z13 !s107 design.sv|scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|environment.sv|test.sv|interface.sv|testbench.sv|
+Z14 !s90 -sv|+acc|+cover|+fcover|-l|tb.log|testbench.sv|
+!i113 0
+Z15 !s102 +cover
+Z16 o-sv +acc +cover +fcover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vRAM
+R5
+Z17 DXx4 work 17 testbench_sv_unit 0 22 K9WTkz181kMQgVm3jXPnV3
+R9
+r1
+!s85 0
+31
+!i10b 1
+!s100 aW0OC8`kf?adXgeFDki>_1
+IhYj=n12i8[CBR_QfE^4NC2
+R10
+S1
+R0
+w1783316510
+8design.sv
+Z18 Fdesign.sv
+L0 31
+R8
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2
+n@r@a@m
+vtb
+R5
+R17
+R9
+r1
+!s85 0
+31
+!i10b 1
+!s100 g5Y=<2_Y>I18o3jkcJ@2;2
+Iaf@^RcSBIogl]2Z6b5=0c3
+R10
+S1
+R0
+Z19 w1783331520
+Z20 8testbench.sv
+Z21 Ftestbench.sv
+L0 7
+R8
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2
+Xtestbench_sv_unit
+R4
+R5
+VK9WTkz181kMQgVm3jXPnV3
+r1
+!s85 0
+31
+!i10b 1
+!s100 oKi=V=f4D[WEMG5>N;iN^1
+IK9WTkz181kMQgVm3jXPnV3
+!i103 1
+S1
+R0
+R19
+R20
+R21
+R11
+Ftest.sv
+Fenvironment.sv
+R7
+Fgenerator.sv
+R6
+Fmonitor.sv
+Fscoreboard.sv
+R18
+L0 4
+R8
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2
