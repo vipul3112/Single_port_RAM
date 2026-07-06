@@ -37,7 +37,7 @@ class environment;
       driv.main();
       mon.main(); 
       scb.main();
-    join
+    join_none
     
   endtask
   

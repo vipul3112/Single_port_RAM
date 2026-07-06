@@ -2,24 +2,24 @@ var g_data = {
 b5:[{dummy:0},
 {anchor:'cvg39',items:[{z:'  if(!reset)',f:'design.sv',l:'59',c:'G',p:'100.00'}
 ,{cr:'c',t:'I',z:'  if(!reset)',f:'design.sv',l:'59',h:'2',c:'g'}
-,{cr:'c',t:'T',z:'  else if(write_enable && !read_enable) ',f:'design.sv',l:'61',h:'214',c:'g'}
-,{cr:'c',t:'A',z:'  if(!reset)',f:'design.sv',l:'59',h:'393',c:'g'}
+,{cr:'c',t:'T',z:'  else if(write_enable && !read_enable) ',f:'design.sv',l:'61',h:'70',c:'g'}
+,{cr:'c',t:'A',z:'  if(!reset)',f:'design.sv',l:'59',h:'115',c:'g'}
 ]},
 {anchor:'cvg40',items:[{z:'  if(!reset) ',f:'design.sv',l:'68',c:'G',p:'100.00'}
 ,{cr:'c',t:'I',z:'  if(!reset) ',f:'design.sv',l:'68',h:'2',c:'g'}
-,{cr:'c',t:'T',z:'  else if(read_enable && !write_enable)',f:'design.sv',l:'70',h:'280',c:'g'}
-,{cr:'c',t:'E',z:'  else',f:'design.sv',l:'72',h:'534',c:'g'}
+,{cr:'c',t:'T',z:'  else if(read_enable && !write_enable)',f:'design.sv',l:'70',h:'76',c:'g'}
+,{cr:'c',t:'E',z:'  else',f:'design.sv',l:'72',h:'169',c:'g'}
 ]}],
 b38:[{dummy:0},
 {anchor:'cvg39',items:[{z:'  if(!reset)',f:'design.sv',l:'59',c:'G',p:'100.00'}
 ,{cr:'c',t:'I',z:'  if(!reset)',f:'design.sv',l:'59',h:'2',c:'g'}
-,{cr:'c',t:'T',z:'  else if(write_enable && !read_enable) ',f:'design.sv',l:'61',h:'214',c:'g'}
-,{cr:'c',t:'A',z:'  if(!reset)',f:'design.sv',l:'59',h:'393',c:'g'}
+,{cr:'c',t:'T',z:'  else if(write_enable && !read_enable) ',f:'design.sv',l:'61',h:'70',c:'g'}
+,{cr:'c',t:'A',z:'  if(!reset)',f:'design.sv',l:'59',h:'115',c:'g'}
 ]},
 {anchor:'cvg40',items:[{z:'  if(!reset) ',f:'design.sv',l:'68',c:'G',p:'100.00'}
 ,{cr:'c',t:'I',z:'  if(!reset) ',f:'design.sv',l:'68',h:'2',c:'g'}
-,{cr:'c',t:'T',z:'  else if(read_enable && !write_enable)',f:'design.sv',l:'70',h:'280',c:'g'}
-,{cr:'c',t:'E',z:'  else',f:'design.sv',l:'72',h:'534',c:'g'}
+,{cr:'c',t:'T',z:'  else if(read_enable && !write_enable)',f:'design.sv',l:'70',h:'76',c:'g'}
+,{cr:'c',t:'E',z:'  else',f:'design.sv',l:'72',h:'169',c:'g'}
 ]}],
 b78:[{dummy:0},
 {anchor:'cvg79',items:[{z:'      if(!trans.randomize())',f:'generator.sv',l:'20',c:'Y',p:'50.00'}
@@ -28,15 +28,15 @@ b78:[{dummy:0},
 ]}],
 b101:[{dummy:0},
 {anchor:'cvg102',items:[{z:'      if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  ',f:'scoreboard.sv',l:'23',c:'Y',p:'80.00'}
-,{cr:'c',t:'I',z:'      if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  ',f:'scoreboard.sv',l:'23',h:'80',c:'g'}
-,{cr:'c',t:'T',z:'      else if((trans.write_enable == 0) && (trans.read_enable == 1)) begi...',f:'scoreboard.sv',l:'27',h:'96',c:'g'}
-,{cr:'c',t:'T',z:'      else if((trans.write_enable == 1) && (trans.read_enable == 0)) begi...',f:'scoreboard.sv',l:'34',h:'69',c:'g'}
-,{cr:'c',t:'T',z:'      else if((trans.write_enable == 1) && (trans.read_enable == 1)) begi...',f:'scoreboard.sv',l:'38',h:'3088',c:'g'}
+,{cr:'c',t:'I',z:'      if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  ',f:'scoreboard.sv',l:'23',h:'26',c:'g'}
+,{cr:'c',t:'T',z:'      else if((trans.write_enable == 0) && (trans.read_enable == 1)) begi...',f:'scoreboard.sv',l:'27',h:'29',c:'g'}
+,{cr:'c',t:'T',z:'      else if((trans.write_enable == 1) && (trans.read_enable == 0)) begi...',f:'scoreboard.sv',l:'34',h:'23',c:'g'}
+,{cr:'c',t:'T',z:'      else if((trans.write_enable == 1) && (trans.read_enable == 1)) begi...',f:'scoreboard.sv',l:'38',h:'21',c:'g'}
 ,{cr:'m',t:'A',z:'      if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  ',f:'scoreboard.sv',l:'23',h:'0',c:'r'}
 ]},
 {anchor:'cvg103',items:[{z:'        if(trans.data_out == mem[trans.address]) begin',f:'scoreboard.sv',l:'28',c:'G',p:'100.00'}
-,{cr:'c',t:'I',z:'        if(trans.data_out == mem[trans.address]) begin',f:'scoreboard.sv',l:'28',h:'76',c:'g'}
-,{cr:'c',t:'E',z:'        else begin',f:'scoreboard.sv',l:'30',h:'20',c:'g'}
+,{cr:'c',t:'I',z:'        if(trans.data_out == mem[trans.address]) begin',f:'scoreboard.sv',l:'28',h:'27',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',f:'scoreboard.sv',l:'30',h:'2',c:'g'}
 ]}],
 b123:[{dummy:0},
 {anchor:'cvg124',items:[{z:'      if(!trans.randomize())',f:'generator.sv',l:'20',c:'Y',p:'50.00'}
@@ -45,15 +45,15 @@ b123:[{dummy:0},
 ]}],
 b146:[{dummy:0},
 {anchor:'cvg147',items:[{z:'      if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  ',f:'scoreboard.sv',l:'23',c:'Y',p:'80.00'}
-,{cr:'c',t:'I',z:'      if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  ',f:'scoreboard.sv',l:'23',h:'80',c:'g'}
-,{cr:'c',t:'T',z:'      else if((trans.write_enable == 0) && (trans.read_enable == 1)) begi...',f:'scoreboard.sv',l:'27',h:'96',c:'g'}
-,{cr:'c',t:'T',z:'      else if((trans.write_enable == 1) && (trans.read_enable == 0)) begi...',f:'scoreboard.sv',l:'34',h:'69',c:'g'}
-,{cr:'c',t:'T',z:'      else if((trans.write_enable == 1) && (trans.read_enable == 1)) begi...',f:'scoreboard.sv',l:'38',h:'3088',c:'g'}
+,{cr:'c',t:'I',z:'      if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  ',f:'scoreboard.sv',l:'23',h:'26',c:'g'}
+,{cr:'c',t:'T',z:'      else if((trans.write_enable == 0) && (trans.read_enable == 1)) begi...',f:'scoreboard.sv',l:'27',h:'29',c:'g'}
+,{cr:'c',t:'T',z:'      else if((trans.write_enable == 1) && (trans.read_enable == 0)) begi...',f:'scoreboard.sv',l:'34',h:'23',c:'g'}
+,{cr:'c',t:'T',z:'      else if((trans.write_enable == 1) && (trans.read_enable == 1)) begi...',f:'scoreboard.sv',l:'38',h:'21',c:'g'}
 ,{cr:'m',t:'A',z:'      if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  ',f:'scoreboard.sv',l:'23',h:'0',c:'r'}
 ]},
 {anchor:'cvg148',items:[{z:'        if(trans.data_out == mem[trans.address]) begin',f:'scoreboard.sv',l:'28',c:'G',p:'100.00'}
-,{cr:'c',t:'I',z:'        if(trans.data_out == mem[trans.address]) begin',f:'scoreboard.sv',l:'28',h:'76',c:'g'}
-,{cr:'c',t:'E',z:'        else begin',f:'scoreboard.sv',l:'30',h:'20',c:'g'}
+,{cr:'c',t:'I',z:'        if(trans.data_out == mem[trans.address]) begin',f:'scoreboard.sv',l:'28',h:'27',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',f:'scoreboard.sv',l:'30',h:'2',c:'g'}
 ]}],
 dummyEnd:0
 };

@@ -8,7 +8,7 @@ class generator;
   
   mailbox gen2driv;
   
-  event ended;
+  event e;
   
   function new(mailbox gen2driv);
     this.gen2driv = gen2driv;
@@ -22,7 +22,7 @@ class generator;
       trans.display("[Generator]");
       gen2driv.put(trans);
     end
-    -> ended;
+    -> e;
     
   endtask
   

@@ -38,13 +38,12 @@ module tb;
     t1.main();
   end
   
- 
   initial begin
-    $dumpfile("dump.vcd");
-    $dumpvars(); 
-    #100000 $display("Coverage = %0.2f%%",t1.env.driv.drv_cg.get_coverage());
-    #1 $finish;
-  end
+    wait(t1.env.gen.e.triggered);
+    repeat(300) @(posedge clk);   // give driver/monitor/scoreboard time
+    $display("Coverage = %0.2f%%",t1.env.driv.drv_cg.get_coverage());
+    $finish();
+  end 
   
   
 endmodule
