@@ -17,7 +17,11 @@ class driver;
      READ : coverpoint trans.read_enable { bins rd[ ]={0,1};}
      DATA_IN: coverpoint trans.data_in { bins data ={[0:255]};}
     ADDRESS: coverpoint trans.address { bins address[]={[0:31]};}
-     WRXRD: cross WRITE,READ;
+     WRXRD: cross WRITE,READ{
+
+      ignore_bins wr_rd = binsof(WRITE) intersect {1} &&
+      binsof(READ)  intersect {1};//this should be added here...i will update and git commit
+     }
   endgroup
   
   
