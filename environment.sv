@@ -32,6 +32,7 @@ class environment;
   endfunction
   
   task main();
+    driv.reset();
     fork
       gen.main();
       driv.main();

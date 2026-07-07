@@ -17,7 +17,8 @@ class transaction;
     address inside {[0:31]};
   }
   
-  function void display(string name);
+  task display(string name);
+
     $display("-------------------------");
     $display("- %s ",name);
     $display("-------------------------");
@@ -26,7 +27,7 @@ class transaction;
     $display("- data_out = %0d",data_out);
     $display("-------------------------");
     
-  endfunction
+  endtask
   
   
 endclass

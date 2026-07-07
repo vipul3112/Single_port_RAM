@@ -15,14 +15,80 @@ class generator;
   endfunction
   
   task main();
-    repeat(500) begin
+    repeat(200) begin
+	repeat_count++;
       trans = new();
       if(!trans.randomize())
         $fatal("Gen:: trans randomization fail");
       trans.display("[Generator]");
       gen2driv.put(trans);
     end
-    -> e;
+	begin
+	trans = new();
+	trans.read_enable = 1'b0;
+	trans.write_enable = 1'b1;
+	trans.address = 25;
+	trans.data_in = 50;
+	gen2driv.put(trans);
+	repeat_count++;
+	end
+
+	begin
+	
+        trans = new();
+        trans.read_enable = 1'b1;
+        trans.write_enable = 1'b0;
+        trans.address = 25;
+        trans.data_in = 50;
+        gen2driv.put(trans);
+        repeat_count++;
+        end
+
+	begin
+        trans = new();
+        trans.read_enable = 1'b1;
+        trans.write_enable = 1'b0;
+        trans.address = 25;
+        trans.data_in = 50;
+        gen2driv.put(trans);
+        repeat_count++;
+        end
+
+////////////////////////////
+
+	 begin
+        trans = new();
+        trans.read_enable = 1'b0;
+        trans.write_enable = 1'b1;
+        trans.address = 25;
+        trans.data_in = 51;
+        gen2driv.put(trans);
+        repeat_count++;
+        end
+
+        begin
+        trans = new();
+        trans.read_enable = 1'b1;
+        trans.write_enable = 1'b0;
+        trans.address = 25;
+        trans.data_in = 51;
+        gen2driv.put(trans);
+        repeat_count++;
+        end
+
+        begin
+        trans = new();
+        trans.read_enable = 1'b1;
+        trans.write_enable = 1'b0;
+        trans.address = 25;
+        trans.data_in = 51;
+        gen2driv.put(trans);
+        repeat_count++;
+        end
+
+///////////////////
+    if(repeat_count == 201)
+    	-> e;
     
   endtask
   

@@ -39,9 +39,9 @@ module tb;
   end
   
   initial begin
-    wait(t1.env.gen.e.triggered);
-    repeat(300) @(posedge clk);   // give driver/monitor/scoreboard time
-    $display("Coverage = %0.2f%%",t1.env.driv.drv_cg.get_coverage());
+    //wait(t1.env.gen.e.triggered);
+    //repeat(300) @(posedge clk);   // give driver/monitor/scoreboard time
+    #5000$display("Coverage = %0.2f%%",t1.env.driv.drv_cg.get_coverage());
     $finish();
   end 
   

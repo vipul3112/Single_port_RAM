@@ -24,7 +24,7 @@ class monitor;
       @(mvif.mon_cb);
       trans.data_out = mvif.mon_cb.data_out;
 
-      @(mvif.mon_cb);
+      //@(mvif.mon_cb);
       trans.display("[ Monitor ]");
       mon2scb.put(trans);
     end

@@ -8,7 +8,7 @@ class scoreboard;
   
   static int pass;
   static int fail;
-
+  static int total;
   mailbox mon2scb; 
   
   function new(mailbox mon2scb);
@@ -19,7 +19,7 @@ class scoreboard;
     forever begin
       trans  = new();
       mon2scb.get(trans);
-      
+      total++;
       if((trans.write_enable == 0) && (trans.read_enable == 0)) begin  
         $display("No Operation");
       end
@@ -38,6 +38,9 @@ class scoreboard;
       else if((trans.write_enable == 1) && (trans.read_enable == 1)) begin  
         $display("RAM does not support simultaneous read and write operations");
       end
+	$display("Total = %0d", total);
+	if(total == 200)
+		break;
     end //forever ka
   endtask
   
